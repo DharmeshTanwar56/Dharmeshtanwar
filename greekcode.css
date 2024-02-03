@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}#header{
+    height: 100vh ;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.logo{
+    margin-top: 30px;
+    width: auto;
+    height: 60px;
+}
+.contain_text{
+    margin-top: 130px;
+    width: 30%;
+}
+.container h1{
+    font-size: 30px;
+}
+.container p{
+    font-size: 18px;
+}
+.square{
+    width: 12px;
+    height: 12px;
+    background-color:#f67c92 ;
+    display: inline-block;
+}
+.common-btn{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92 ;
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10%;
+
+}
+.contain_text p{
+    font-weight: 400px;
+    line-height: 18px;
+    color: #7777;
+}
+.line-1{
+    display: inline-block;
+    height:15px ;
+    width: 15px;
+    background:#f67c92 ;
+}
+.line-2{
+    display: inline-block;
+    height:15px ;
+    width: 15px;
+    background:#f67c92 ;
+}
+.line-3{
+    display: inline-block;
+    height:15px ;
+    width: 15px;
+    background:#f67c92 ;
+}
+#side-nav{
+    height: 95vh;
+    width: 250px;
+    position: fixed;
+    right: -50%;
+    top: 2.5%;
+    background-color: #f67c92;
+    border-radius: 10px;
+    transition: .5s;
+}
+#side-nav ul li{
+    list-style:none;
+    margin: 50px 20px;
+}
+#side-nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* nav ul li{
+    margin: 50px 20px;
+} */
+.sign_up{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+.login{
+    background:white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.nav_btn{
+    margin: 50px 40px;
+    /* justify-content: center; */
+}
+#menu_btn{
+    cursor: pointer;
+    height: 7.5%;
+    width:3.5%;
+    position: fixed;
+    top: 6.5%;
+    right:3.5%;
+    border-radius: 5px;
+}

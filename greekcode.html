@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="greekcode.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="logo.png" alt="logo" class="logo">
+            <div class="contain_text">
+                <h1>The purpose is to <br>teach and bring learning to the people</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit pariatur deleniti itaque cumque est libero commodi. Reprehenderit labore id architecto enim ducimus sunt eaque?</p>
+                <button class="common-btn">Read more</button>
+                <div class="line">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="side-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav_btn">
+            <button class="login" >Log in</button>
+            <button class="sign_up" >Sign up</button>
+        </div>
+        
+    </nav>
+    <img src="menu.png" alt="menu_img" id="menu_btn">
+    <script>
+        var menu_btn = document.getElementById("menu_btn");
+        var side_nav = document.getElementById("side_nav");
+        
+        side_nav.style.right ="-50%";
+        menu_btn.onclick = function(){
+            if(side_nav.style.right == "-50%"){
+                side_nav.style.right ="1%";
+            }
+            else{
+                side_nav.style.right = "-50%";
+            }
+        }
+    </script>
+</body>
+</html>
